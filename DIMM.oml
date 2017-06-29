@@ -20,7 +20,7 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	Avionics_Radiator . mass_management:basicMass = 3.0
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291695_40030_52943"
-	Avionics_Radiator . mass_management:massGrowthAllowance = 0.05
+	Avionics_Radiator . mass_management:massGrowthAllowance = 0.06
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291679_514665_52846"
 	conceptInstance(Battery is-a mass_management:MComponent)

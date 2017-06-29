@@ -1,4 +1,4 @@
-@oml:MD_RESOURCE_URL="mdel://_18_0_6_f21035f_1493916673132_935047_60417?projectID=ID_6_21_17_8_58_58_AM_2a1f8801_15cba376a89_3c97_cae_tw_jpl_nasa_gov_127_0_0_1&serverType=teamwork&projectBranch=Version+3+-+NX+Import&projectVersion=0&projectName=IMCE+Mass+Management+Demonstration&elementName=Package+DIMM&metaType=Package&elementQName=02+DIMM+Project%3A%3ADIMM"
+@oml:MD_RESOURCE_URL="mdel://_18_0_6_f21035f_1493916673132_935047_60417?projectID=ID_6_22_17_1_52_13_PM__2e632a5d_15cced0e20a__4a6d_cae_tw_jpl_nasa_gov_127_0_0_1&serverType=teamwork&projectBranch=Version+4+-+Valid+Model&projectVersion=0&projectName=IMCE+Mass+Management+Demonstration&elementName=Package+DIMM&metaType=Package&elementQName=02+DIMM+Project%3A%3ADIMM"
 @oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493916673132_935047_60417"
 partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManagementDemonstration/DIMM> {
 
@@ -44,6 +44,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	conceptInstance(IMCEDemo is-a mass_management:MComponent)
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291695_474752_52968"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1497999291648_87706_52773"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1497999291663_410703_52776"
 	reifiedRelationshipInstance(IMCEDemo_spacecraft is-a base:Contains)
 
 	domain(IMCEDemo_spacecraft)=IMCEDemo
@@ -51,6 +53,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(IMCEDemo_spacecraft)=Spacecraft
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291695_336991_52981"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1497999291648_87706_52773"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1497999291695_691577_52971"
 	reifiedRelationshipInstance(IMCEDemo_instrument_Subsystem is-a base:Contains)
 
 	domain(IMCEDemo_instrument_Subsystem)=IMCEDemo
@@ -100,6 +104,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	MLH_MMP_CHK_Instrument_Asm_021115 . mass_management:basicMass = 4.2694167755925285
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002923985_185859_51801"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002923794_77551_51657"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002923971_458438_51729"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Instrument_Asm_021115_NA0069_040016_021115 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Instrument_Asm_021115_NA0069_040016_021115)=MLH_MMP_CHK_Instrument_Asm_021115
@@ -107,6 +113,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Instrument_Asm_021115_NA0069_040016_021115)=NA0069_040016_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924020_577416_51943"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002923794_77551_51657"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002924005_899681_51871"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Instrument_Asm_021115_ST12259_040_021115 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Instrument_Asm_021115_ST12259_040_021115)=MLH_MMP_CHK_Instrument_Asm_021115
@@ -114,6 +122,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Instrument_Asm_021115_ST12259_040_021115)=st12259_040_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924033_409996_52014"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002923794_77551_51657"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002924005_899681_51871"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Instrument_Asm_021115_ST12259_040_021115_1 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Instrument_Asm_021115_ST12259_040_021115_1)=MLH_MMP_CHK_Instrument_Asm_021115
@@ -121,6 +131,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Instrument_Asm_021115_ST12259_040_021115_1)=st12259_040_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924095_727538_52156"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002923794_77551_51657"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002924044_546239_52084"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Instrument_Asm_021115_MLH_MMP_CHK_BASIC_BOX_021115 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Instrument_Asm_021115_MLH_MMP_CHK_BASIC_BOX_021115)=MLH_MMP_CHK_Instrument_Asm_021115
@@ -128,6 +140,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Instrument_Asm_021115_MLH_MMP_CHK_BASIC_BOX_021115)=MLH_MMP_CHK_Basic_Box_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924107_443166_52227"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002923794_77551_51657"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002923971_458438_51729"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Instrument_Asm_021115_NA0069_040016_021115_1 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Instrument_Asm_021115_NA0069_040016_021115_1)=MLH_MMP_CHK_Instrument_Asm_021115
@@ -135,6 +149,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Instrument_Asm_021115_NA0069_040016_021115_1)=NA0069_040016_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924345_35657_53221"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002923794_77551_51657"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002924120_6084_52297"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Instrument_Asm_021115_MLH_MMP_CHK_PANEL_2_021115 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Instrument_Asm_021115_MLH_MMP_CHK_PANEL_2_021115)=MLH_MMP_CHK_Instrument_Asm_021115
@@ -142,6 +158,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Instrument_Asm_021115_MLH_MMP_CHK_PANEL_2_021115)=MLH_MMP_CHK_Panel_2_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924355_286603_53292"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002923794_77551_51657"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002923971_458438_51729"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Instrument_Asm_021115_NA0069_040016_021115_2 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Instrument_Asm_021115_NA0069_040016_021115_2)=MLH_MMP_CHK_Instrument_Asm_021115
@@ -149,6 +167,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Instrument_Asm_021115_NA0069_040016_021115_2)=NA0069_040016_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924365_105604_53363"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002923794_77551_51657"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002924005_899681_51871"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Instrument_Asm_021115_ST12259_040_021115_2 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Instrument_Asm_021115_ST12259_040_021115_2)=MLH_MMP_CHK_Instrument_Asm_021115
@@ -156,6 +176,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Instrument_Asm_021115_ST12259_040_021115_2)=st12259_040_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924383_887228_53434"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002923794_77551_51657"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002924005_899681_51871"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Instrument_Asm_021115_ST12259_040_021115_3 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Instrument_Asm_021115_ST12259_040_021115_3)=MLH_MMP_CHK_Instrument_Asm_021115
@@ -163,6 +185,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Instrument_Asm_021115_ST12259_040_021115_3)=st12259_040_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924394_677908_53505"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002923794_77551_51657"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002923971_458438_51729"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Instrument_Asm_021115_NA0069_040016_021115_3 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Instrument_Asm_021115_NA0069_040016_021115_3)=MLH_MMP_CHK_Instrument_Asm_021115
@@ -188,6 +212,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	MLH_MMP_CHK_Panel_2_021115 . mass_management:basicMass = 3.2606867828737616
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924167_336929_52440"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002924120_6084_52297"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002924155_1585_52368"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Panel_2_021115_KNM5X0_5_021115 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Panel_2_021115_KNM5X0_5_021115)=MLH_MMP_CHK_Panel_2_021115
@@ -195,6 +221,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Panel_2_021115_KNM5X0_5_021115)=KNM5x0_5_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924175_24459_52511"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002924120_6084_52297"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002924155_1585_52368"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Panel_2_021115_KNM5X0_5_021115_1 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Panel_2_021115_KNM5X0_5_021115_1)=MLH_MMP_CHK_Panel_2_021115
@@ -202,6 +230,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Panel_2_021115_KNM5X0_5_021115_1)=KNM5x0_5_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924184_103383_52582"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002924120_6084_52297"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002924155_1585_52368"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Panel_2_021115_KNM5X0_5_021115_2 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Panel_2_021115_KNM5X0_5_021115_2)=MLH_MMP_CHK_Panel_2_021115
@@ -209,6 +239,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Panel_2_021115_KNM5X0_5_021115_2)=KNM5x0_5_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924193_571019_52653"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002924120_6084_52297"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002924155_1585_52368"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Panel_2_021115_KNM5X0_5_021115_3 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Panel_2_021115_KNM5X0_5_021115_3)=MLH_MMP_CHK_Panel_2_021115
@@ -216,6 +248,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Panel_2_021115_KNM5X0_5_021115_3)=KNM5x0_5_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924211_509479_52795"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002924120_6084_52297"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002924201_214157_52723"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Panel_2_021115_KNCM4X0_7_021115 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Panel_2_021115_KNCM4X0_7_021115)=MLH_MMP_CHK_Panel_2_021115
@@ -223,6 +257,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Panel_2_021115_KNCM4X0_7_021115)=KNCM4X0_7_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924303_198293_52937"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002924120_6084_52297"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002924225_150282_52865"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Panel_2_021115_MLH_MMP_CHK_PANEL_2_101_021115 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Panel_2_021115_MLH_MMP_CHK_PANEL_2_101_021115)=MLH_MMP_CHK_Panel_2_021115
@@ -230,6 +266,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Panel_2_021115_MLH_MMP_CHK_PANEL_2_101_021115)=MLH_MMP_CHK_Panel_2_101_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924313_504427_53008"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002924120_6084_52297"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002924201_214157_52723"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Panel_2_021115_KNCM4X0_7_021115_1 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Panel_2_021115_KNCM4X0_7_021115_1)=MLH_MMP_CHK_Panel_2_021115
@@ -237,6 +275,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Panel_2_021115_KNCM4X0_7_021115_1)=KNCM4X0_7_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924323_752187_53079"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002924120_6084_52297"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002924201_214157_52723"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Panel_2_021115_KNCM4X0_7_021115_2 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Panel_2_021115_KNCM4X0_7_021115_2)=MLH_MMP_CHK_Panel_2_021115
@@ -244,6 +284,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(MLH_MMP_CHK_Panel_2_021115_KNCM4X0_7_021115_2)=KNCM4X0_7_021115
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002924332_255412_53150"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1498002924120_6084_52297"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1498002924201_214157_52723"
 	reifiedRelationshipInstance(MLH_MMP_CHK_Panel_2_021115_KNCM4X0_7_021115_3 is-a base:Contains)
 
 	domain(MLH_MMP_CHK_Panel_2_021115_KNCM4X0_7_021115_3)=MLH_MMP_CHK_Panel_2_021115
@@ -293,6 +335,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	Power_Subsystem . mass_management:massGrowthAllowance = 0.0
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291679_280068_52856"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1497999291679_871336_52837"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1497999291679_514665_52846"
 	reifiedRelationshipInstance(Power_Subsystem_battery is-a base:Contains)
 
 	domain(Power_Subsystem_battery)=Power_Subsystem
@@ -300,6 +344,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(Power_Subsystem_battery)=Battery
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291679_130822_52869"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1497999291679_871336_52837"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1497999291679_297778_52859"
 	reifiedRelationshipInstance(Power_Subsystem_solar_Array is-a base:Contains)
 
 	domain(Power_Subsystem_solar_Array)=Power_Subsystem
@@ -343,6 +389,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	Spacecraft . mass_management:massGrowthAllowance = 0.0
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291663_813057_52795"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1497999291663_410703_52776"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1497999291663_679266_52785"
 	reifiedRelationshipInstance(Spacecraft_telecom_Subsystem is-a base:Contains)
 
 	domain(Spacecraft_telecom_Subsystem)=Spacecraft
@@ -350,6 +398,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(Spacecraft_telecom_Subsystem)=Telecom_Subsystem
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291663_983959_52808"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1497999291663_410703_52776"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1497999291663_151304_52798"
 	reifiedRelationshipInstance(Spacecraft_aCS_Subsystem is-a base:Contains)
 
 	domain(Spacecraft_aCS_Subsystem)=Spacecraft
@@ -357,6 +407,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(Spacecraft_aCS_Subsystem)=ACS_Subsystem
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291663_636171_52821"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1497999291663_410703_52776"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1497999291663_341414_52811"
 	reifiedRelationshipInstance(Spacecraft_cDS_Subsystem is-a base:Contains)
 
 	domain(Spacecraft_cDS_Subsystem)=Spacecraft
@@ -364,6 +416,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(Spacecraft_cDS_Subsystem)=CDS_Subsystem
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291663_476914_52834"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1497999291663_410703_52776"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1497999291663_831459_52824"
 	reifiedRelationshipInstance(Spacecraft_mechanical_Subsystem is-a base:Contains)
 
 	domain(Spacecraft_mechanical_Subsystem)=Spacecraft
@@ -371,6 +425,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(Spacecraft_mechanical_Subsystem)=Mechanical_Subsystem
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291679_294189_52873"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1497999291663_410703_52776"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1497999291679_871336_52837"
 	reifiedRelationshipInstance(Spacecraft_power_Subsystem is-a base:Contains)
 
 	domain(Spacecraft_power_Subsystem)=Spacecraft
@@ -378,6 +434,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(Spacecraft_power_Subsystem)=Power_Subsystem
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291679_73109_52886"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1497999291663_410703_52776"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1497999291679_350447_52876"
 	reifiedRelationshipInstance(Spacecraft_propulsion_Subsystem is-a base:Contains)
 
 	domain(Spacecraft_propulsion_Subsystem)=Spacecraft
@@ -385,6 +443,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(Spacecraft_propulsion_Subsystem)=Propulsion_Subsystem
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291695_554203_52964"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1497999291663_410703_52776"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1497999291679_190357_52889"
 	reifiedRelationshipInstance(Spacecraft_thermal_Subsystem is-a base:Contains)
 
 	domain(Spacecraft_thermal_Subsystem)=Spacecraft
@@ -410,6 +470,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	Thermal_Subsystem . mass_management:massGrowthAllowance = 0.0
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291679_326325_52908"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1497999291679_190357_52889"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1497999291679_729973_52898"
 	reifiedRelationshipInstance(Thermal_Subsystem_mLI is-a base:Contains)
 
 	domain(Thermal_Subsystem_mLI)=Thermal_Subsystem
@@ -417,6 +479,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(Thermal_Subsystem_mLI)=MLI
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291695_166297_52921"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1497999291679_190357_52889"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1497999291695_66667_52911"
 	reifiedRelationshipInstance(Thermal_Subsystem_louvers is-a base:Contains)
 
 	domain(Thermal_Subsystem_louvers)=Thermal_Subsystem
@@ -424,6 +488,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(Thermal_Subsystem_louvers)=Louvers
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291695_359429_52934"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1497999291679_190357_52889"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1497999291695_125719_52924"
 	reifiedRelationshipInstance(Thermal_Subsystem_pPU_Radiator is-a base:Contains)
 
 	domain(Thermal_Subsystem_pPU_Radiator)=Thermal_Subsystem
@@ -431,6 +497,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(Thermal_Subsystem_pPU_Radiator)=PPU_Radiator
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291695_257110_52947"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1497999291679_190357_52889"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1497999291695_752598_52937"
 	reifiedRelationshipInstance(Thermal_Subsystem_avionics_Radiator is-a base:Contains)
 
 	domain(Thermal_Subsystem_avionics_Radiator)=Thermal_Subsystem
@@ -438,6 +506,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(Thermal_Subsystem_avionics_Radiator)=Avionics_Radiator
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1497999291695_368628_52960"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f060354_1497999291679_190357_52889"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f060354_1497999291695_217660_52950"
 	reifiedRelationshipInstance(Thermal_Subsystem_shielding is-a base:Contains)
 
 	domain(Thermal_Subsystem_shielding)=Thermal_Subsystem
@@ -859,6 +929,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	conceptInstance(WBS_06 is-a mass_management:MWorkPackage)
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493931538079_281801_299221"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f21035f_1493918054282_964662_221684"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f21035f_1493918054290_619770_221692"
 	reifiedRelationshipInstance(WBS_06_wBS_06_01 is-a base:Contains)
 
 	domain(WBS_06_wBS_06_01)=WBS_06
@@ -866,6 +938,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_wBS_06_01)=WBS_06_01
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493931543332_813396_299247"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f21035f_1493918054282_964662_221684"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f21035f_1493918054291_342104_221693"
 	reifiedRelationshipInstance(WBS_06_wBS_06_02 is-a base:Contains)
 
 	domain(WBS_06_wBS_06_02)=WBS_06
@@ -873,6 +947,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_wBS_06_02)=WBS_06_02
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493931545301_79627_299273"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f21035f_1493918054282_964662_221684"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f21035f_1493918054285_454809_221687"
 	reifiedRelationshipInstance(WBS_06_wBS_06_03 is-a base:Contains)
 
 	domain(WBS_06_wBS_06_03)=WBS_06
@@ -880,6 +956,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_wBS_06_03)=WBS_06_03
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493931548451_645896_299299"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f21035f_1493918054282_964662_221684"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f21035f_1493918054279_158607_221680"
 	reifiedRelationshipInstance(WBS_06_wBS_06_04 is-a base:Contains)
 
 	domain(WBS_06_wBS_06_04)=WBS_06
@@ -887,6 +965,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_wBS_06_04)=WBS_06_04
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493931552884_318126_299325"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f21035f_1493918054282_964662_221684"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f21035f_1493918054292_605489_221694"
 	reifiedRelationshipInstance(WBS_06_wBS_06_05 is-a base:Contains)
 
 	domain(WBS_06_wBS_06_05)=WBS_06
@@ -894,6 +974,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_wBS_06_05)=WBS_06_05
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493931555032_151269_299351"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f21035f_1493918054282_964662_221684"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f21035f_1493918054286_941742_221688"
 	reifiedRelationshipInstance(WBS_06_wBS_06_06 is-a base:Contains)
 
 	domain(WBS_06_wBS_06_06)=WBS_06
@@ -901,6 +983,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_wBS_06_06)=WBS_06_06
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493931557046_511300_299377"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f21035f_1493918054282_964662_221684"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f21035f_1493918054288_846619_221690"
 	reifiedRelationshipInstance(WBS_06_wBS_06_07 is-a base:Contains)
 
 	domain(WBS_06_wBS_06_07)=WBS_06
@@ -908,6 +992,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_wBS_06_07)=WBS_06_07
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493931559983_679093_299403"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f21035f_1493918054282_964662_221684"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f21035f_1493918054280_336828_221681"
 	reifiedRelationshipInstance(WBS_06_wBS_06_08 is-a base:Contains)
 
 	domain(WBS_06_wBS_06_08)=WBS_06
@@ -915,6 +1001,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_wBS_06_08)=WBS_06_08
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493931563662_62967_299429"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f21035f_1493918054282_964662_221684"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f21035f_1493918054293_52847_221695"
 	reifiedRelationshipInstance(WBS_06_wBS_06_09 is-a base:Contains)
 
 	domain(WBS_06_wBS_06_09)=WBS_06
@@ -922,6 +1010,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_wBS_06_09)=WBS_06_09
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493931567127_902654_299455"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f21035f_1493918054282_964662_221684"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f21035f_1493918054284_569876_221686"
 	reifiedRelationshipInstance(WBS_06_wBS_06_10 is-a base:Contains)
 
 	domain(WBS_06_wBS_06_10)=WBS_06
@@ -929,6 +1019,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_wBS_06_10)=WBS_06_10
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493931570412_615747_299481"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f21035f_1493918054282_964662_221684"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f21035f_1493918054294_239598_221696"
 	reifiedRelationshipInstance(WBS_06_wBS_06_11 is-a base:Contains)
 
 	domain(WBS_06_wBS_06_11)=WBS_06
@@ -936,6 +1028,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_wBS_06_11)=WBS_06_11
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493931573347_755751_299507"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f21035f_1493918054282_964662_221684"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f21035f_1493918054281_5561_221682"
 	reifiedRelationshipInstance(WBS_06_wBS_06_12 is-a base:Contains)
 
 	domain(WBS_06_wBS_06_12)=WBS_06
@@ -943,6 +1037,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_wBS_06_12)=WBS_06_12
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493931579052_81592_299533"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f21035f_1493918054282_964662_221684"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f21035f_1493918054282_234794_221683"
 	reifiedRelationshipInstance(WBS_06_wBS_06_13 is-a base:Contains)
 
 	domain(WBS_06_wBS_06_13)=WBS_06
@@ -950,6 +1046,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_wBS_06_13)=WBS_06_13
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493931582315_128503_299559"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f21035f_1493918054282_964662_221684"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f21035f_1493918054287_473586_221689"
 	reifiedRelationshipInstance(WBS_06_wBS_06_14 is-a base:Contains)
 
 	domain(WBS_06_wBS_06_14)=WBS_06
@@ -957,6 +1055,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_wBS_06_14)=WBS_06_14
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493931585476_987805_299585"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f21035f_1493918054282_964662_221684"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f21035f_1493918054289_145898_221691"
 	reifiedRelationshipInstance(WBS_06_wBS_06_15 is-a base:Contains)
 
 	domain(WBS_06_wBS_06_15)=WBS_06
@@ -964,6 +1064,8 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_wBS_06_15)=WBS_06_15
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f21035f_1493931587895_512874_299611"
+	@oml:MD_SOURCE_ELEMENT_ID="_18_0_6_f21035f_1493918054282_964662_221684"
+	@oml:MD_TARGET_ELEMENT_ID="_18_0_6_f21035f_1493918054283_671071_221685"
 	reifiedRelationshipInstance(WBS_06_wBS_06_16 is-a base:Contains)
 
 	domain(WBS_06_wBS_06_16)=WBS_06
@@ -1508,44 +1610,28 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	st12259_040_021115 . mass_management:basicMass = 2.6166186333530586E-4
 
 
-	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002010578_87635_55140"
-	reifiedRelationshipInstance(WBS_06_05_CDS_Subsystem is-a project:Supplies)
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498001896416_683192_55110"
+	reifiedRelationshipInstance(WBS_06_08_Louvers is-a project:Supplies)
 
-	domain(WBS_06_05_CDS_Subsystem)=WBS_06_05
+	domain(WBS_06_08_Louvers)=WBS_06_08
 
-	range(WBS_06_05_CDS_Subsystem)=CDS_Subsystem
-
-
-	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498001821994_432789_55097"
-	reifiedRelationshipInstance(WBS_06_07_Mechanical_Subsystem is-a project:Supplies)
-
-	domain(WBS_06_07_Mechanical_Subsystem)=WBS_06_07
-
-	range(WBS_06_07_Mechanical_Subsystem)=Mechanical_Subsystem
+	range(WBS_06_08_Louvers)=Louvers
 
 
-	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002188164_157896_55175"
-	reifiedRelationshipInstance(WBS_06_04_Solar_Array is-a project:Supplies)
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498157442737_908463_52317"
+	reifiedRelationshipInstance(WBS_05_MLH_MMP_CHK_Panel_2_021115 is-a project:Supplies)
 
-	domain(WBS_06_04_Solar_Array)=WBS_06_04
+	domain(WBS_05_MLH_MMP_CHK_Panel_2_021115)=WBS_05
 
-	range(WBS_06_04_Solar_Array)=Solar_Array
-
-
-	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498001901291_81248_55113"
-	reifiedRelationshipInstance(WBS_06_08_Shielding is-a project:Supplies)
-
-	domain(WBS_06_08_Shielding)=WBS_06_08
-
-	range(WBS_06_08_Shielding)=Shielding
+	range(WBS_05_MLH_MMP_CHK_Panel_2_021115)=MLH_MMP_CHK_Panel_2_021115
 
 
-	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002181413_320303_55172"
-	reifiedRelationshipInstance(WBS_06_04_Power_Subsystem is-a project:Supplies)
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498001500234_517670_55033"
+	reifiedRelationshipInstance(WBS_06_Spacecraft is-a project:Supplies)
 
-	domain(WBS_06_04_Power_Subsystem)=WBS_06_04
+	domain(WBS_06_Spacecraft)=WBS_06
 
-	range(WBS_06_04_Power_Subsystem)=Power_Subsystem
+	range(WBS_06_Spacecraft)=Spacecraft
 
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498001454491_546405_55026"
@@ -1556,28 +1642,12 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_01_IMCEDemo)=IMCEDemo
 
 
-	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498001630520_935258_55036"
-	reifiedRelationshipInstance(WBS_05_Instrument_Subsystem is-a project:Supplies)
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002010578_87635_55140"
+	reifiedRelationshipInstance(WBS_06_05_CDS_Subsystem is-a project:Supplies)
 
-	domain(WBS_05_Instrument_Subsystem)=WBS_05
+	domain(WBS_06_05_CDS_Subsystem)=WBS_06_05
 
-	range(WBS_05_Instrument_Subsystem)=Instrument_Subsystem
-
-
-	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002193939_249772_55178"
-	reifiedRelationshipInstance(WBS_06_04_Battery is-a project:Supplies)
-
-	domain(WBS_06_04_Battery)=WBS_06_04
-
-	range(WBS_06_04_Battery)=Battery
-
-
-	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498001893686_498063_55107"
-	reifiedRelationshipInstance(WBS_06_08_Avionics_Radiator is-a project:Supplies)
-
-	domain(WBS_06_08_Avionics_Radiator)=WBS_06_08
-
-	range(WBS_06_08_Avionics_Radiator)=Avionics_Radiator
+	range(WBS_06_05_CDS_Subsystem)=CDS_Subsystem
 
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498001908062_137447_55116"
@@ -1596,6 +1666,30 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_08_Thermal_Subsystem)=Thermal_Subsystem
 
 
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002181413_320303_55172"
+	reifiedRelationshipInstance(WBS_06_04_Power_Subsystem is-a project:Supplies)
+
+	domain(WBS_06_04_Power_Subsystem)=WBS_06_04
+
+	range(WBS_06_04_Power_Subsystem)=Power_Subsystem
+
+
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002188164_157896_55175"
+	reifiedRelationshipInstance(WBS_06_04_Solar_Array is-a project:Supplies)
+
+	domain(WBS_06_04_Solar_Array)=WBS_06_04
+
+	range(WBS_06_04_Solar_Array)=Solar_Array
+
+
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498157451216_497911_52323"
+	reifiedRelationshipInstance(WBS_05_MLH_MMP_CHK_Instrument_Harness_021115 is-a project:Supplies)
+
+	domain(WBS_05_MLH_MMP_CHK_Instrument_Harness_021115)=WBS_05
+
+	range(WBS_05_MLH_MMP_CHK_Instrument_Harness_021115)=MLH_MMP_CHK_Instrument_Harness_021115
+
+
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002085696_977592_55158"
 	reifiedRelationshipInstance(WBS_06_09_Propulsion_Subsystem is-a project:Supplies)
 
@@ -1604,20 +1698,20 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_09_Propulsion_Subsystem)=Propulsion_Subsystem
 
 
-	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498001896416_683192_55110"
-	reifiedRelationshipInstance(WBS_06_08_Louvers is-a project:Supplies)
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002193939_249772_55178"
+	reifiedRelationshipInstance(WBS_06_04_Battery is-a project:Supplies)
 
-	domain(WBS_06_08_Louvers)=WBS_06_08
+	domain(WBS_06_04_Battery)=WBS_06_04
 
-	range(WBS_06_08_Louvers)=Louvers
+	range(WBS_06_04_Battery)=Battery
 
 
-	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002124485_923802_55165"
-	reifiedRelationshipInstance(WBS_06_10_ACS_Subsystem is-a project:Supplies)
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498001630520_935258_55036"
+	reifiedRelationshipInstance(WBS_05_Instrument_Subsystem is-a project:Supplies)
 
-	domain(WBS_06_10_ACS_Subsystem)=WBS_06_10
+	domain(WBS_05_Instrument_Subsystem)=WBS_05
 
-	range(WBS_06_10_ACS_Subsystem)=ACS_Subsystem
+	range(WBS_05_Instrument_Subsystem)=Instrument_Subsystem
 
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002058896_835177_55151"
@@ -1628,12 +1722,60 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	range(WBS_06_06_Telecom_Subsystem)=Telecom_Subsystem
 
 
-	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498001500234_517670_55033"
-	reifiedRelationshipInstance(WBS_06_Spacecraft is-a project:Supplies)
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498157460137_803676_52332"
+	reifiedRelationshipInstance(WBS_05_KNCM4X0_7_021115 is-a project:Supplies)
 
-	domain(WBS_06_Spacecraft)=WBS_06
+	domain(WBS_05_KNCM4X0_7_021115)=WBS_05
 
-	range(WBS_06_Spacecraft)=Spacecraft
+	range(WBS_05_KNCM4X0_7_021115)=KNCM4X0_7_021115
+
+
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498001893686_498063_55107"
+	reifiedRelationshipInstance(WBS_06_08_Avionics_Radiator is-a project:Supplies)
+
+	domain(WBS_06_08_Avionics_Radiator)=WBS_06_08
+
+	range(WBS_06_08_Avionics_Radiator)=Avionics_Radiator
+
+
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498157394389_262299_52303"
+	reifiedRelationshipInstance(WBS_05_MLH_MMP_CHK_Instrument_Asm_021115 is-a project:Supplies)
+
+	domain(WBS_05_MLH_MMP_CHK_Instrument_Asm_021115)=WBS_05
+
+	range(WBS_05_MLH_MMP_CHK_Instrument_Asm_021115)=MLH_MMP_CHK_Instrument_Asm_021115
+
+
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498157455761_770483_52329"
+	reifiedRelationshipInstance(WBS_05_NA0069_040016_021115 is-a project:Supplies)
+
+	domain(WBS_05_NA0069_040016_021115)=WBS_05
+
+	range(WBS_05_NA0069_040016_021115)=NA0069_040016_021115
+
+
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498001821994_432789_55097"
+	reifiedRelationshipInstance(WBS_06_07_Mechanical_Subsystem is-a project:Supplies)
+
+	domain(WBS_06_07_Mechanical_Subsystem)=WBS_06_07
+
+	range(WBS_06_07_Mechanical_Subsystem)=Mechanical_Subsystem
+
+
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498001901291_81248_55113"
+	reifiedRelationshipInstance(WBS_06_08_Shielding is-a project:Supplies)
+
+	domain(WBS_06_08_Shielding)=WBS_06_08
+
+	range(WBS_06_08_Shielding)=Shielding
+
+
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498002124485_923802_55165"
+	reifiedRelationshipInstance(WBS_06_10_ACS_Subsystem is-a project:Supplies)
+
+	domain(WBS_06_10_ACS_Subsystem)=WBS_06_10
+
+	range(WBS_06_10_ACS_Subsystem)=ACS_Subsystem
 
 
 	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498001891237_147903_55104"
@@ -1642,5 +1784,37 @@ partial descriptionBox <https://ontology.imce.jpl.nasa.gov/projects/MassManageme
 	domain(WBS_06_08_MLI)=WBS_06_08
 
 	range(WBS_06_08_MLI)=MLI
+
+
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498157454177_281491_52326"
+	reifiedRelationshipInstance(WBS_05_KNM5x0_5_021115 is-a project:Supplies)
+
+	domain(WBS_05_KNM5x0_5_021115)=WBS_05
+
+	range(WBS_05_KNM5x0_5_021115)=KNM5x0_5_021115
+
+
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498157449050_689610_52320"
+	reifiedRelationshipInstance(WBS_05_MLH_MMP_CHK_Basic_Box_021115 is-a project:Supplies)
+
+	domain(WBS_05_MLH_MMP_CHK_Basic_Box_021115)=WBS_05
+
+	range(WBS_05_MLH_MMP_CHK_Basic_Box_021115)=MLH_MMP_CHK_Basic_Box_021115
+
+
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498157421699_30554_52310"
+	reifiedRelationshipInstance(WBS_05_MLH_MMP_CHK_Panel_2_101_021115 is-a project:Supplies)
+
+	domain(WBS_05_MLH_MMP_CHK_Panel_2_101_021115)=WBS_05
+
+	range(WBS_05_MLH_MMP_CHK_Panel_2_101_021115)=MLH_MMP_CHK_Panel_2_101_021115
+
+
+	@oml:MD_ELEMENT_ID="_18_0_6_f060354_1498157462329_122541_52335"
+	reifiedRelationshipInstance(WBS_05_st12259_040_021115 is-a project:Supplies)
+
+	domain(WBS_05_st12259_040_021115)=WBS_05
+
+	range(WBS_05_st12259_040_021115)=st12259_040_021115
 
 }
